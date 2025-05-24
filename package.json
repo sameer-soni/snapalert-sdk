@@ -1,6 +1,6 @@
 {
   "name": "snapalert",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -8,7 +8,24 @@
   },
   "author": "Sameer Soni",
   "license": "ISC",
-  "description": "",
+  "description": "A simple, configurable error alerting SDK for Node.js to notify you of application errors via email (and soon SMS/call).",
+  "keywords": [
+    "error",
+    "alert",
+    "sdk",
+    "nodejs",
+    "notifications",
+    "email",
+    "sms",
+    "call",
+    "snapalert",
+    "monitoring"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sameer-soni/snapalert-sdk.git"
+  },
+  "homepage": "https://snapalert.syncverse.site/",
   "dependencies": {
     "axios": "^1.9.0"
   }
